@@ -1,5 +1,5 @@
 # LookingGlass
-A simple HTML / CSS / PHP grid template for smart mirrors. This plain black back ground, nine (9) grid template is intended for the maker that may not be a JavaScript developer.  This simple page refreshes itself, but could be more real time with JavaScript and some web workers.  That is not the intent here.
+A simple HTML / CSS and/or PHP, grid template for smart mirrors. This plain black back ground, nine (9) grid template is intended for the maker that may not be a JavaScript developer.  This simple page refreshes itself, but could be more real time with JavaScript and some web workers.  That is not the intent here.
 
 This simple dash page is intended to be ran on a Raspberry Pi but could be used most anywhere.  These instructions are not intended to support every situation.  They should be enough to get you started though.
 
