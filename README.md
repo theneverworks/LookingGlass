@@ -20,7 +20,7 @@ sudo apt-get install php7.0-curl
 sudo apt-get install chromium-browser
 sudo apt-get install ttf-mscorefonts-installer unclutter x11-xserver-utils
 ```
-### Configuring the Raspberry Pi to stay awake
+### Configuring the Raspberry Pi to stay awake and start the Looking Glass
 ```bash
 cd .config/lxsession/LXDE-pi/
 sudo nano autostart
@@ -48,10 +48,14 @@ sudo nano /etc/lightdm/lightdm.con
 
 Add - ```xserver-command=X -s 0 dpms``` under ```[Seat:*]```
 
+Place lookingglass.php or lookingglass.html in this folder.
+
 ```bash
 cd /var/www/html
 ```
 
-Place lookingglass.php or html in this folder.
-
 Reboot
+
+```bash
+shutdown
+```
