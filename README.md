@@ -1,7 +1,11 @@
 # LookingGlass
 A simple HTML / CSS / PHP grid template for smart mirrors. This plain black back ground, nine (9) grid template is intended for the maker that may not be a JavaScript developer.  This simple page refreshes itself, but could be more real time with JavaScript and some web workers.  That is not the intent here.
 
-This simple dash page is intended to be ran on a Raspberry Pi but could be used most anywhere.  These instructions 
+This simple dash page is intended to be ran on a Raspberry Pi but could be used most anywhere.  These instructions are not intended to support every situation.  They should be enough to get you started though.
+
+Assuming you have a fresh running Raspberry Pi and can SSH into it from a command line, proceed with the steps below.  If you do not have a running Raspberry Pi.  Might I suggest PiBakery.  http://www.pibakery.org/
+
+Let's update the operating system.
 
 sudo apt-get update
 sudo apt-get upgrade
